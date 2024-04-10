@@ -75,4 +75,22 @@ console.log(remn4);
 // output is zero because n4 =5 , when % by mulT =100 is 
 // 0 because 5 goes into 100, 20 times so there are no remainders left.
 
-//changing the way over25 calculates. (n1 && n2 && n3 && n4)<25;
+//changing the way over25 calculates.  I changed the variable name to under25
+ // instead of over25 by const under 25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;      
+ //I also found another way to do it, which, I don't know which one is better practice,
+ //but they both seem to achieve the same result.
+ // I also used const under25 = (n1 && n2 && n3 && n4)<25;
+
+
+
+ //part two//
+
+ //question one
+
+ const totalMi = 1500
+ const mpg30 = 30
+ //the value of totalMi is 1500 because that's the total amount of miles for the trip
+ //the value of mpg30 is 30 because that's the amount of gallons it takes per mile while driving 
+ //55 mph.
+
+ console.log(`'totalMi' is assigned a value of `)
