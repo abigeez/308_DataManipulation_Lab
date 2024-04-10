@@ -18,7 +18,8 @@ const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
 // Check three: no number larger than 25
 // This time, we use the OR operator to check
 // if ANY of the numbers is larger than 25.
-const isOver25 = n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25;
+const under25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;
+console.log(under25);
 
 // Check four: all unique numbers
 // This is long, and there are more efficient
@@ -30,7 +31,7 @@ const isUnique = n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 
 // for convenience. Note how we negate isOver25 using
 // the ! operator. We could also have tested for 
 // "isUnder25" as an alternative.
-const isValid = isSum50 && isTwoOdd && !isOver25 && isUnique;
+const isValid = isSum50 && isTwoOdd && under25 && isUnique;
 
 // Finally, log the results.
 console.log(isValid);
@@ -57,6 +58,8 @@ const largThan = n1 > n4;
 console.log(largThan)
 //output is true
 
+
+
 //artithmetic chain
 
 const subTract = (n2-n1);
@@ -69,3 +72,7 @@ console.log(mulT);
 
 const remn4 = (mulT % n4);
 console.log(remn4);
+// output is zero because n4 =5 , when % by mulT =100 is 
+// 0 because 5 goes into 100, 20 times so there are no remainders left.
+
+//changing the way over25 calculates. (n1 && n2 && n3 && n4)<25;
