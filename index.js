@@ -47,6 +47,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 //part one:
   // Checking if all numbers are divisible by 5 
 
-  const isDiv5 = (n1 && n2 && n3 && n4) % 5;                      //(n1 % 5) && (n2 % 5) && (n3 % 5) && (n4 % 5);
+  const isDiv5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) === 0
   console.log(isDiv5);
-  //output is 0, meaning that there are no remainders left from either of the values when they are divided by 5.
+  //output is true, meaning that there are no remainders left from either of the values when they are divided by 5, 
+  //resulting in all of them being divisible by 5.
