@@ -93,4 +93,25 @@ console.log(remn4);
  //the value of mpg30 is 30 because that's the amount of gallons it takes per mile while driving 
  //55 mph.
 
- console.log(`'totalMi' is assigned a value of "${totalMi}," and `)
+ console.log(`'totalMi' is assigned a value of "${totalMi}," and 'mpg30' is assigned a value of "${mpg30}." 
+ Therefore, 'totalMi' divided by 'mpg30' is equal to ${totalMi % mpg30}.`);
+ //I solved what the amount of gallons would be for the trip which is totalMi (1500) the total amount of miles of the trip
+ //divided by the amount of amount of miles per galon which is 30 or mpg30. The result is 50 gallons.
+
+
+ //part two question two
+ const amtMi = 50
+
+ //I got the value of amtMi because I divided the total miles of the trip totalMi - 1500
+// divided by mpg30 - 30 mpg when the car is going at 55mph which then equals 
+// 50 gallons needed. 
+
+ const gasPri = 3
+ // gasPri has the value of 3 because that is the price per gallon
+
+ const amtMi = (totalMi % mpg30) === 50
+ 
+ console.log(`'amtMi' is assigned a value of "${amtMi}," and gasPri is assigned a value of "${gasPri}." 
+ So, 'amtMi' multiplied by 'gasPri' is equal to ${amtMi * gasPri}.`);
+
+
