@@ -52,12 +52,14 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   console.log(isDiv5);
   //output is true, meaning that there are no remainders left from either of the values when they are divided by 5, 
   //resulting in all of them being divisible by 5.
+console.log(`The four numbers are all divisible by 5, according to the provided criteria: ${isDiv5}.`);
 
   //checking if the first number is greater than the last
 const largThan = n1 > n4;
 console.log(largThan)
 //output is true
 
+console.log(`The first number, 'n1,' is larger than the last number, 'n4,' according to the following expression: ${largThan}.`);
 
 
 //artithmetic chain
@@ -65,10 +67,13 @@ console.log(largThan)
 const subTract = (n2-n1);
 console.log(subTract);
 // output is 5, because 15-10 = 5
+console.log(`'n2' is given a value of "${n2}," and 'n1' is given a value of "${n1}." So 
+'n1' subtracted by 'n2' is equal to: ${n2-n1}.`);
 
 const mulT = (subTract * n3);
 console.log(mulT);
 //output is 100 because 5 * 20 is 100.
+console.log( `'mulT' is the given the value of ${mulT}`)
 
 const remn4 = (mulT % n4);
 console.log(remn4);
