@@ -93,4 +93,4 @@ console.log(remn4);
  //the value of mpg30 is 30 because that's the amount of gallons it takes per mile while driving 
  //55 mph.
 
- console.log(`'totalMi' is assigned a value of `)
+ console.log(`'totalMi' is assigned a value of "${totalMi}," and `)
