@@ -114,4 +114,19 @@ console.log(remn4);
  console.log(`'amtMi' is assigned a value of "${amtMi}," and gasPri is assigned a value of "${gasPri}." 
  So, 'amtMi' multiplied by 'gasPri' is equal to ${amtMi * gasPri}.`);
 
+ //part two question 3
+
+ const milPh = 55
+
+ //milPh has the value of 55 because that's the mph that the car travels at 30mpg.
+
+ const ttlHr = (totalMi % milPh) === 27.27
+
+ //ttlHr has the value of 27.27 because the total amount of miles per trip, 1500 (totalMi)
+//divided by the 55mph (milPh) is 27.27, the amount of hours the trip will take.
+
+console.log(`'totalMi' is assigned a value of "${totalMi}," and 'milPh' is assigned a value of "${gasPri}."
+Thus, 'totalMi' divided by 'milPh' is equal to ${totalMi % milPh}.`);
+
+// What makes the most 
 
