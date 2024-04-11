@@ -73,12 +73,14 @@ console.log(`'n2' is given a value of "${n2}," and 'n1' is given a value of "${n
 const mulT = (subTract * n3);
 console.log(mulT);
 //output is 100 because 5 * 20 is 100.
-console.log( `'mulT' is the given the value of ${mulT}`)
+console.log( `The output is "${mulT}," because the third number, 'n3' is multiplied by 'subTract.'`);
 
 const remn4 = (mulT % n4);
 console.log(remn4);
 // output is zero because n4 =5 , when % by mulT =100 is 
 // 0 because 5 goes into 100, 20 times so there are no remainders left.
+console.log(`'n4' is given a value of "${n4}," and 'mulT' is given a value of "${mulT}."
+When 'n4' is multiplied by 'mulT' it is equal to ${n4*mulT},`);
 
 //changing the way over25 calculates.  I changed the variable name to under25
  // instead of over25 by const under 25 = n1 < 25 || n2 < 25 || n3 < 25 || n4 < 25;      
