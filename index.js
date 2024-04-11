@@ -128,5 +128,9 @@ console.log(remn4);
 console.log(`'totalMi' is assigned a value of "${totalMi}," and 'milPh' is assigned a value of "${gasPri}."
 Thus, 'totalMi' divided by 'milPh' is equal to ${totalMi % milPh}.`);
 
-// What makes the most 
+// What makes the most sense to travel at which speed for the duration of the trip is
+// to travel 55mph because it is the most fuel-efficient, only costing 30 gallons at $3/per gallon
+//which costs $150 and is under budget, whereas going 60mph, with 28 mpg the total amount of gallons used
+// would be 53, 53 x 3 = $160, which is higher in costs, and finally, going 75mph with a 23mpg
+// would cost about 65 gallons, which is $195 and over budget.
 
